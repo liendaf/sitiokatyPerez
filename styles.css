@@ -1,0 +1,305 @@
+body {
+  justify-content: space-between;
+  padding: 5px 20px;
+  font-size: 12px;
+  color: #646464;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover img {
+  opacity: 0.85;
+}
+
+a:hover h2, a:hover h3 {
+  text-decoration: underline;
+}
+.header-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.lema {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #837e7e;
+}
+
+.nav {
+  background: #111;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.portada {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.principal {
+  grid-column: 1 / 2;
+  background: white;
+  padding: 15px;
+}
+
+.principal img {
+  width: 100%;
+}
+
+.secundarias {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.secundarias article {
+  background: white;
+  padding: 10px;
+}
+
+.secundarias img {
+  width: 100%;
+}
+
+.lateral {
+  background: white;
+  padding: 15px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.bloque {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.bloque h2 {
+  border-left: 4px solid #004aad;
+  padding-left: 10px;
+}
+
+.poesia {
+  font-style: italic;
+  line-height: 1.6;
+}
+.intro-entrevista {
+  background: #f0f0f0;
+  padding: 10px;
+  border-left: 4px solid #004aad;
+  margin-bottom: 10px;
+}
+.volanta {
+  color: #004aad;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.titulo {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.copete {
+  font-size: 17px;
+  color: #444;
+  border-left: 4px solid #004aad;
+  padding-left: 10px;
+}
+.principal-deporte {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.principal-deporte h2 {
+  color: #0a7d2c; /* verde deportivo */
+}
+
+.resultados, .destacados {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.resultados h3, .destacados h3 {
+  border-left: 4px solid #0a7d2c;
+  padding-left: 10px;
+}
+
+.resultados ul {
+  padding-left: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Times New Roman', serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+font-size: 20px;
+
+}
+.carta-lectores {
+  background: rgb(224, 222, 222);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #004aad;
+}
+
+.carta-lectores h2 {
+  margin-bottom: 10px;
+}
+
+.carta-lectores p {
+  line-height: 1.6;
+  font-size: 17px;
+}
+.carta-lectores p {
+  text-indent: 300px;
+
+}
+
+
+.empleos {
+  border-left: 5px solid #ff9696;
+  background: #ffffff;
+}
+
+.empleos h1 {
+  color: #f55858;
+}
+
+.ventas {
+  border-left: 5px solid #6bf8bd;
+  background: #ffffff;
+}
+
+.ventas h1 {
+  color: #7baee9;
+}
+.servicios {
+  border-left: 5px solid #45e71c;
+  background: #ffffff;
+}
+
+.servicios h1{
+color: #0dd366;
+}
+
+.inmuebles {
+  border-left: 5px solid #d16106;
+  background: #ffffff;
+}
+.inmuebles h1{
+color: #f7ae41;
+
+}
+
+.bloque{
+
+  border-left: 5px solid #0e0b0a;
+  background: #ffffff;
+}
+
+.foto-principal {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+}
+
+.foto-principal img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.texto-foto {
+  margin-top: 20px;
+}
+
+.categoria {
+  color: #0066cc;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.texto-foto h2 {
+  font-size: 36px;
+  margin: 10px 0;
+  font-family: Georgia, serif;
+}
+
+.descripcion {
+  font-size: 19px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.autor {
+  margin-top: 20px;
+  font-style: italic;
+  color: gray;
+}
+
+.cortometraje{
+  color: #000000;
+  background: rgb(241, 198, 149);
+ padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #835004;
+}
+
+.anuncio-video{
+    background:white;
+    padding:10px;
+    margin-bottom:15px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+}
+
+.anuncio-video video{
+    border-radius:8px;
+}
